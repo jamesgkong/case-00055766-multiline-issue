@@ -1,0 +1,55 @@
+type: spec.insomnia.rest/5.0
+name: case-00055766-export-multiline-issue
+meta:
+  id: wrk_3c66018769ad482693889e67e497d69a
+  created: 1745571242313
+  modified: 1745571242313
+collection:
+  - url: https://someurl.somedomain
+    name: New Request
+    meta:
+      id: req_1c4270de11a445deaa919aa14f6a462b
+      created: 1745571247819
+      modified: 1745571281119
+      isPrivate: false
+      sortKey: -1745571247819
+    method: POST
+    body:
+      mimeType: application/x-www-form-urlencoded
+      params:
+        - id: pair_996cdba86aa542d6b552805903419014
+          multiline: false
+          name: client_id
+          value: some-value
+          disabled: false
+    headers:
+      - name: Content-Type
+        value: application/x-www-form-urlencoded
+      - name: User-Agent
+        value: insomnia/11.1.0-beta.1
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_696b5feaacdd4e0ec15d4ad5c1d90d25bf242789
+    created: 1745571242317
+    modified: 1745571242317
+environments:
+  name: Base Environment
+  meta:
+    id: env_696b5feaacdd4e0ec15d4ad5c1d90d25bf242789
+    created: 1745571242316
+    modified: 1745571242316
+    isPrivate: false
+spec:
+  meta:
+    id: spc_9ee4063089474c4f8f09e426ba29f06d
+    created: 1745571242315
+    modified: 1745571242315
